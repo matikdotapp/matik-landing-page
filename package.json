@@ -1,11 +1,11 @@
 {
-  "name": "movida",
+  "name": "matik",
   "module": "index.ts",
   "type": "module",
   "scripts": {
     "start": "bun run index.ts",
-    "build:css": "sass src/style.scss dist/style.css && tailwindcss build dist/style.css -o dist/style.css",
-    "watch:css": "sass --watch src/style.scss:dist/style.css"
+    "build": "sass src/style.scss dist/style.css && tailwindcss build dist/style.css -o dist/style.css",
+    "watch": "sass --watch src/style.scss:dist/style.css"
   },
   "devDependencies": {
     "@types/bun": "latest",
