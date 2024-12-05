@@ -737,9 +737,10 @@ video {
 
   /* The name you want to use for this font */
 
-  src: url("https://matik.app/public/fonts/Misto.otf") format("opentype"),
+  src:
   url("https://matik.app/public/fonts/Misto.woff") format("woff"),
-  url("https://matik.app/public/fonts/Misto.woff2") format("woff2");
+  url("https://matik.app/public/fonts/Misto.woff2") format("woff2"),
+  url("https://matik.app/public/fonts/Misto.otf") format("opentype");
 
   /* opentype (modern browsers) */
 
