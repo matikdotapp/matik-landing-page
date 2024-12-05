@@ -737,7 +737,9 @@ video {
 
   /* The name you want to use for this font */
 
-  src: url("https://username.github.io/repository-name/public/fonts/Misto.otf") format("opentype");
+  src: url("https://username.github.io/repository-name/public/fonts/Misto.otf") format("opentype"),
+  url("https://username.github.io/repository-name/public/fonts/Misto.woff") format("woff"),
+  url("https://username.github.io/repository-name/public/fonts/Misto.woff2") format("woff2");
 
   /* opentype (modern browsers) */
 
